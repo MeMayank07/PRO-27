@@ -46,6 +46,7 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background(255,250,250);
+  background("cyan")
   Engine.update(engine);
   stroke(15)
   fill("blue")
